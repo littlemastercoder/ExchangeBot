@@ -13,6 +13,7 @@ dotenv.config();
 
 // SETUP
 // ADD THE ALERT FUNC
+// git test
 
 // ADD PRIVACY POLICY AND ToS
 // CHECK IF APIs ARE LEGAL FOR LARGE-SCALE USE
