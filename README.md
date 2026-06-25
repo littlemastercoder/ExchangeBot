@@ -11,3 +11,10 @@ OAuth2 Permissions Required:
 
 > [!CAUTION]
 > Do not use this bot for any financial decisions or trading. The entire thing is reliant on a free API that may lag behind, give inaccurate information, or go offline. 
+
+<h2>Legal and Guidelines</h2>
+<ul>
+  <li>Read our <a href="TOS.md">Terms of Service</a></li>
+  <li>Review the <a href="PRIVACY.md">Privacy Policy</a></li>
+  <li>See the project <a href="LICENSE.md">License</a></li>
+</ul>
