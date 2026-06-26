@@ -5,9 +5,12 @@ A bot that allows for quick checking for stock and crypto prices in Discord, alo
 
 OAuth2 Permissions Required:
 <ul>
-<li>bot</li>
-<li>application.commands</li>
+  <li>bot</li>
+  <li>application.commands</li>
 </ul>
+
+<h2>Exchange Bot for Your Server</h2>
+<p>Exchange Bot is available at <a href="https://discord.com/oauth2/authorize?client_id=1503906544658546708&permissions=0&integration_type=0&scope=bot+applications.commands">this link</a>.</p>
 
 > [!CAUTION]
 > Do not use this bot for any financial decisions or trading. The entire thing is reliant on a free API that may lag behind, give inaccurate information, or go offline. 
@@ -18,3 +21,4 @@ OAuth2 Permissions Required:
   <li>Review the <a href="PRIVACY.md">Privacy Policy</a></li>
   <li>See the project <a href="LICENSE.md">License</a></li>
 </ul>
+
