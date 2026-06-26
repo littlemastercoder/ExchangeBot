@@ -144,8 +144,8 @@ client.on('interactionCreate', async function(interaction) {
             console.log("Null ticker")
         }
 
-        // 2. Run your Python logic
-        const python = spawn('python', ['logic.py', ticker!]);
+
+        const python = spawn('python3', ['logic.py', ticker!]);
 
         python.stdout.on('data', function(data) {
             interaction.editReply(`📈 Stock Price: ${data.toString()}`);
@@ -194,7 +194,7 @@ client.on('interactionCreate', async function(interaction) {
         console.log("Null check passed");
 
 
-        const python = spawn('python', ['-u','exchangerates.py', currency1!, currencyAmount!.toString(), currency2!], {})
+        const python = spawn('python3', ['-u','exchangerates.py', currency1!, currencyAmount!.toString(), currency2!], {})
         let output = "";
         console.log("const python initiatiized");
         python.stdout.on('data', function(data) { //culprit
@@ -233,7 +233,7 @@ client.on('interactionCreate', async function(interaction) {
             console.log("Null ticker")
 
         }
-        const python = spawn('python', ['-u','crypto.py', cryptosymbol!], {})
+        const python = spawn('python3', ['-u','crypto.py', cryptosymbol!], {})
         let output = "";
         console.log("const python init");
         python.stdout.on('data', function(data){
