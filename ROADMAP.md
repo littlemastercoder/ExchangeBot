@@ -5,4 +5,6 @@
   <li>DoS protection to stop attacks</li>
   <li>Create "mock" portfolios and allow everyone in a server to have a certain amount of fake money that can be used to buy crypto, trade currencies, and buy stocks</li>
   <li>Make stock charts that show real stock data embedded in Discord (can be done with matplotlib)</li>
+  <li>Allow server owners to choose an alert channel that will show stock ticker alerts</li>
+  <li>Add /news command to allow the top news from a stock to show /news(parameters: ticker)</li>
 </ul>
