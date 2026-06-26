@@ -8,3 +8,6 @@
   <li>Allow server owners to choose an alert channel that will show stock ticker alerts</li>
   <li>Add /news command to allow the top news from a stock to show /news(parameters: ticker)</li>
 </ul>
+
+<p>Server Hosting</p>
+<p>Currently, I am hosting Exchange Bot in my terminal window</p>
